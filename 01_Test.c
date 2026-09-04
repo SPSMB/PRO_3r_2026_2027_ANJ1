@@ -1,10 +1,8 @@
 /* prvni testovaci commit do repozitare */
+#include "stdio.h"
 
 int main()
 {
-	int den = 10;
-    int mesic = 9;
-
-    printf("Ahoj, dnes je %d.%.", den, mesic);
+    printf("Ahoj, dnes");
 	return 0;
 }
