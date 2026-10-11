@@ -23,5 +23,9 @@ int main(){
 	printf("x&y: %d\n", x&y);
 	printf("x&&y: %d\n", x&&y);
 	
+	x = 10;
+	x = ~x;
+	printf("x~=7: %d\n", x);
+
 	return 0;
 }
